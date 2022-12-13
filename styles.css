@@ -1,0 +1,179 @@
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+
+#header-img {
+  width:120px;
+  display: inline;
+  padding-left: 20px;
+  
+
+}
+
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  top:0px;
+  left: 0px;
+  background-color: white;
+  
+  
+}
+
+ul {
+  display: flex;
+  float: right;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+li {
+  text-decoration: none; 
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 20px;
+  padding-right: 40px;
+  padding-top: 15px;
+  
+  
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: verdana;
+  
+  
+}
+
+a:hover {
+  
+  color: #0950ae;
+  
+  
+  
+}
+
+
+
+
+#photographs, #movies, #Lifestyle  {
+  text-align: center;
+  color: black;
+  font-family: tahoma, geneva, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  font-size: 30px;
+  padding-top:120px;
+}
+
+
+}
+
+
+
+.gallery {
+  padding-top: 180px;
+  
+}
+
+
+.text {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  padding: 100px;
+  text-align: justify;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size:50px;
+  color: black;
+}
+
+.mandc {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+}
+.photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.photos img {
+  width: 100%;
+  max-width: 350px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.life {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+
+}
+
+.life img {
+  width: 100%;
+  max-width: 350px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.space {
+  padding: 40px;
+}
+
+form {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+
+.news {
+  color: black;
+  font-size: 20px;
+
+  
+
+
+  
+  
+}
+
+.button {
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
